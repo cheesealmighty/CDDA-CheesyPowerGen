@@ -4,7 +4,7 @@
     "ident": "cheesy_powergen",
     "name": "Cheesy powergen",
     "authors": [ "CheeseAlmighty" ],
-    "description": "Gravity powered power gen and picohydroelectric power gen.",
+    "description": "Sensible renewable energy. HAYO!",
     "category": "vehicle_part",
     "dependencies": [ "dda" ]
   }
