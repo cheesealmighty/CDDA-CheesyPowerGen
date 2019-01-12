@@ -1,0 +1,41 @@
+[
+  {
+    "id": "gravlight_active",
+    "type": "TOOL",
+    "name": "active gravity light",
+    "name_plural": "active gravity lights",
+    "description": "A heavy sack hung by a rope, running through some gears. Should power a small LED lamp for 30 minutes, but not much more.",
+    "weight": 20000,
+    "volume": 50,
+    "price": 500,
+    "to_hit": 2,
+    "bashing": 1,
+    "material": [ "wood", "cotton", "plastic"],
+    "symbol": ";",
+    "color": "green",
+    "initial_charges": 300,
+    "max_charges": 300,
+    "turns_per_charge": 1,
+    "revert_to": "gravlight_inactive",
+    "revert_msg": "The gravity light hits the bottom.",
+    "flags": [ "LIGHT_10" ]
+  },
+  {
+    "id": "gravlight_inactive",
+    "type": "TOOL",
+    "name": "gravity light (inactive)",
+    "name_plural": "gravity lights (inactive)",
+    "description": "A heavy sack hung by a rope, running through some gears. Should power a small LED lamp for 30 minutes, but not much more.",
+    "weight": 20000,
+    "volume": 50,
+    "price": 500,
+    "to_hit": 2,
+    "bashing": 1,
+    "material": [ "wood", "cotton", "plastic"],
+    "symbol": ";",
+    "color": "white",
+    "initial_charges": 300,
+    "max_charges": 300,
+    "use_action": { "target": "gravlight_active", "target_charges" : 300, "msg": "You lift the sack up to activate the light.", "active": true, "type": "transform" }
+  }
+]

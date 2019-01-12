@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "ident": "cheesy_powergen",
+    "name": "Cheesy powergen",
+    "authors": [ "CheeseAlmighty" ],
+    "description": "Sensible renewable energy. HAYO!",
+    "category": "vehicle_part",
+    "dependencies": [ "dda" ]
+  }
+]
