@@ -204,18 +204,5 @@
     "energy_consumption": 0,
     "flags": [ "ENGINE", "PROTRUSION", "TOOL_WRENCH", "E_ALTERNATOR", "E_HIGHER_SKILL", "E_STARTS_INSTANTLY", "OBSTACLE", "CONTROLS" ],
     "description": "A bigger windmill that will create a reasonable amount of rotational power. It is more efficient than a smaller one. Should be placed on outdoors or on a roof."
-  },
-  {
-    "type": "recipe",
-    "result": "gravlight_inactive",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 3,
-    "time": 6000,
-    "reversible": true,
-    "autolearn": true,
-    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "SAW_W", "level": 1 }],
-    "components": [ [ [ "2x4", 4 ] ], [ ["bag_canvas", 1] ], [ [ "rock", 4 ] ], [ ["rope_30", 1] ], [ ["plastic_chunk", 1] ], [ [ "motor_micro", 1] ], [ ["lightstrip_inactive", 1] ] ]
   }
 ]
